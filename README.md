@@ -23,3 +23,4 @@ Things you may want to cover:
 
 * ...
 # shopsy_app
+# shopsy_app_new
