@@ -34,7 +34,8 @@
 
     <div class='field'><br />
       <%= f.label :role %><br />
-      <%= f.select :role, options_for_select(['Buyer', 'Seller']) , prompt: 'Select Role' %>
+      <%= f.select :role, options_for_select(['Buyer', 'Seller']),
+        prompt: 'Select Role' %>
     </div>
 
     <div class='field'><br />
@@ -49,7 +50,9 @@
 
     <div class='field'>
       <%= f.label :state %><br />
-      <%= f.select :state, options_for_select(['Assam', 'Bihar', 'Goa', 'Gujarat', 'Haryana', 'Karnataka', 'Kerla', 'Maharastra', 'Punjab', 'Rajasthan', 'UttarPradesh']), prompt: 'Select State' %>
+      <%= f.select :state, options_for_select(['Assam', 'Bihar', 'Goa',
+      'Gujarat', 'Haryana', 'Karnataka', 'Kerla', 'Maharastra', 'Punjab',
+      'Rajasthan', 'UttarPradesh']), prompt: 'Select State' %>
     </div>
 
     <div class='field'>
