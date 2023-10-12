@@ -23,9 +23,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'bcrypt', '~> 3.1.7'
 # for helps you create unobtrusive JavaScript in your Rails applications
 gem 'rails-ujs'
-# for implementing bootstrap 
+# for implementing bootstrap
 gem 'bootstrap-sass', '3.4.1'
-# both rolify and cancancan is used to manage roles 
+# both rolify and cancancan is used to manage roles
 gem 'rolify'
 gem 'cancancan'
 
@@ -60,4 +60,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "devise", "~> 4.9"
+gem 'devise', '~> 4.9'
