@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get '/items', to: 'items#index'
 
 
+  resources :items
   root 'static_pages#index'
 end
