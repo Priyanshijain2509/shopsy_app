@@ -1,5 +1,5 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
 
 
 $gray-light: #777;
@@ -69,9 +69,13 @@ header {
 
 // form
 
-.form{
-  align-items: center;
-}
+// .form{
+//   align-items: center;
+//   justify-content: center;
+//   display: flex;
+// //   height: 60vh;
+//   width: 300px;
+// }
 
 
 /* footer */
@@ -80,11 +84,11 @@ footer {
 	padding-top: 5px;
 	border-top: 1px solid $gray-medium-light;
 	color: $gray-light;
-	
+
 	a {
 		color: $gray;
 
-		&:hover { 
+		&:hover {
 			color: $gray-darker;
 		}
 	}
